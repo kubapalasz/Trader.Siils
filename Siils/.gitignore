@@ -1,0 +1,46 @@
+# Compiler output
+*/bin
+*/obj
+PrecompiledWeb
+
+
+# Per-user data
+*/*.csproj.user
+*.suo
+*.sln.cache
+*.ReSharper.user
+*.TeamCity.user
+*.sln.DotSettings.user
+_ReSharper.*
+*.docstates
+*.csproj.ReSharper
+*.dotcover
+*.ncrunchsolution
+*.ncrunchsolution.user
+
+# NuGet
+packages/*
+!packages/repositories.config
+!packages/NuGetPowerTools.0.29
+
+# ** DeployTools in LoanBook solution **
+# **************************************
+
+SolutionVersionInfo.generated.cs
+
+# Current configuration
+*/Config
+Configuration/DeployToolsSettings
+
+# Generated config environments
+Configuration/Environments/Training
+Configuration/Environments/LatestTrunkOnStaging
+Configuration/Environments/Local-TestDb
+Configuration/Environments/Local-DevDb
+Configuration/Environments/Local-TrainingDb
+
+# Personal config environments
+Configuration/Environments/Personal
+
+/Configuration/Environments
+*.user

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siils.Api", "Siils.Api\Siils.Api.csproj", "{C74C666D-4012-47E1-BC82-6030D83A9E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siils.Tests", "Siils.Tests\Siils.Tests.csproj", "{EB7BB95D-3EE6-49FC-A19C-DEA1C36F2A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLYEx.API.Dummy", "SLYEx.API.Dummy\SLYEx.API.Dummy.csproj", "{CB8D087A-1BF7-42D1-B100-C1F77CCC5D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C74C666D-4012-47E1-BC82-6030D83A9E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74C666D-4012-47E1-BC82-6030D83A9E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74C666D-4012-47E1-BC82-6030D83A9E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74C666D-4012-47E1-BC82-6030D83A9E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7BB95D-3EE6-49FC-A19C-DEA1C36F2A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7BB95D-3EE6-49FC-A19C-DEA1C36F2A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7BB95D-3EE6-49FC-A19C-DEA1C36F2A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7BB95D-3EE6-49FC-A19C-DEA1C36F2A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8D087A-1BF7-42D1-B100-C1F77CCC5D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8D087A-1BF7-42D1-B100-C1F77CCC5D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8D087A-1BF7-42D1-B100-C1F77CCC5D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8D087A-1BF7-42D1-B100-C1F77CCC5D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
